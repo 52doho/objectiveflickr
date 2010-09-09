@@ -442,11 +442,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				PREBINDING = NO;
 				PRODUCT_NAME = ObjectiveFlickr;
+				SDKROOT = iphoneos4.0;
 			};
 			name = Debug;
 		};
@@ -454,11 +456,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				PREBINDING = NO;
 				PRODUCT_NAME = ObjectiveFlickr;
+				SDKROOT = iphoneos4.0;
 				ZERO_LINK = NO;
 			};
 			name = Release;
