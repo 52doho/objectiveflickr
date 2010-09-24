@@ -237,7 +237,14 @@
 			isa = PBXProject;
 			buildConfigurationList = 6ABF72D40F939BB800B9179E /* Build configuration list for PBXProject "ObjectiveFlickr" */;
 			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
 			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
 			mainGroup = 6ABF72CF0F939BB800B9179E;
 			productRefGroup = 6ABF72E70F939BE600B9179E /* Products */;
 			projectDirPath = "";
@@ -448,7 +455,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				PREBINDING = NO;
 				PRODUCT_NAME = ObjectiveFlickr;
-				SDKROOT = iphoneos4.0;
+				SDKROOT = iphoneos4.1;
 			};
 			name = Debug;
 		};
@@ -462,7 +469,7 @@
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				PREBINDING = NO;
 				PRODUCT_NAME = ObjectiveFlickr;
-				SDKROOT = iphoneos4.0;
+				SDKROOT = iphoneos4.1;
 				ZERO_LINK = NO;
 			};
 			name = Release;
