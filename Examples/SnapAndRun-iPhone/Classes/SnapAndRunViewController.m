@@ -60,7 +60,7 @@ NSString *kUploadImageStep = @"kUploadImageStep";
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.title = @"Snap and Run";
+    self.title = @"Uploadr";
 	
 	if ([[SnapAndRunAppDelegate sharedDelegate].flickrContext.authToken length]) {
 		authorizeButton.enabled = NO;
